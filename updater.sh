@@ -25,7 +25,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 # google-chrome --no-sandbox
 sudo apt-get install golang -y
 go install github.com/sensepost/gowitness@latest
-export PATH=$PATH;
+export PATH=$PATH:~/go/bin/
 
 ##install bloodhound.py
 git clone https://github.com/dodiorne/bloodhound.py
