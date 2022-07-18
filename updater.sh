@@ -8,7 +8,7 @@ sudo apt install antiword -y
 sudo apt install python3.10-venv
 sudo pip install pipx
 pip install pipx
-sudo pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
+pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
 pipx ensurepath
 
 ##install crackmapexec
