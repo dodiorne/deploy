@@ -39,5 +39,9 @@ sudo apt install remmina -y
 ##install hostapd-mana
 sudo apt install hostapd-mana -y
 
+##initialize stuff
+sudo msfdb init
+
 ##cleanup
+sudo updatedb
 sudo apt autoremove
