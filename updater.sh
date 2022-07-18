@@ -26,3 +26,15 @@ apt install ./google-chrome-stable_current_amd64.deb
 sudo apt-get install golang -y
 go install github.com/sensepost/gowitness@latest
 export PATH=$PATH;
+
+##install bloodhound.py
+git clone https://github.com/dodiorne/bloodhound.py
+
+##install virtualbox guest additions
+sudo apt install -y virtualbox-guest-x11
+
+##install remmina
+sudo apt install remmina -y
+
+##install hostapd-mana
+sudo apt install hostapd-mana -y
