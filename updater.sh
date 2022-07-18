@@ -23,5 +23,6 @@ git clone https://github.com/dodiorne/john
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 apt install ./google-chrome-stable_current_amd64.deb
 # google-chrome --no-sandbox
-sudo apt-get install golang
+sudo apt-get install golang -y
+go install github.com/sensepost/gowitness@latest
 export PATH=$PATH;
