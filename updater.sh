@@ -44,4 +44,4 @@ sudo msfdb init
 
 ##cleanup
 sudo updatedb
-sudo apt autoremove
+sudo apt autoremove -y
