@@ -46,3 +46,6 @@ sudo msfdb init
 ##cleanup
 sudo updatedb
 sudo apt autoremove -y
+
+#reboot the system
+sudo shutdown -f now
