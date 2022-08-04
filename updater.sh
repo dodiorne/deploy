@@ -60,6 +60,7 @@ lsusb
 
 #install wifite pre-requs
 sudo apt install hcxtools -y
+sudo apt install hcxdumptool -y
 
 #reboot the system
 sudo shutdown -r now
