@@ -48,8 +48,8 @@ sudo updatedb
 sudo apt autoremove -y
 
 #Install Wireless Drivers for Alpha
-sudo apt install realtek-rtl88xxau-dkms 
-sudo apt install dkms 
+sudo apt install realtek-rtl88xxau-dkms -y
+sudo apt install dkms -y
 git clone https://github.com/aircrack-ng/rtl8812au 
 cd rtl8812au/ 
 make 
