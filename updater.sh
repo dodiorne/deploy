@@ -58,6 +58,8 @@ make
 sudo make install 
 lsusb 
 
+#install wifite pre-requs
+sudo apt install hcxtools -y
 
 #reboot the system
 sudo shutdown -r now
