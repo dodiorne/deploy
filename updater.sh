@@ -47,5 +47,15 @@ sudo msfdb init
 sudo updatedb
 sudo apt autoremove -y
 
+#Install Wireless Drivers for Alpha
+sudo apt install realtek-rtl88xxau-dkms 
+sudo apt install dkms 
+git clone https://github.com/aircrack-ng/rtl8812au 
+cd rtl8812au/ 
+make 
+sudo make install 
+lsusb 
+
+
 #reboot the system
 sudo shutdown -f now
