@@ -58,4 +58,4 @@ lsusb
 
 
 #reboot the system
-sudo shutdown -f now
+sudo shutdown -r now
