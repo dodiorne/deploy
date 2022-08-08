@@ -22,7 +22,7 @@ git clone https://github.com/dodiorne/john
 
 ##install gowitness
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
 # google-chrome --no-sandbox
 sudo apt-get install golang -y
 go install github.com/sensepost/gowitness@latest
