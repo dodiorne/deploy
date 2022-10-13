@@ -62,5 +62,8 @@ lsusb
 sudo apt install hcxtools -y
 sudo apt install hcxdumptool -y
 
+#install weak passwords list
+git clone https://github.com/dodiorne/lists
+
 #reboot the system
 sudo shutdown -r now
