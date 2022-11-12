@@ -51,7 +51,7 @@ sudo apt autoremove -y
 sudo apt install realtek-rtl88xxau-dkms -y
 sleep 60s
 sudo apt install dkms -y
-sleep 60x
+sleep 60s
 git clone https://github.com/aircrack-ng/rtl8812au 
 cd rtl8812au/ 
 make 
