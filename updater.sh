@@ -5,11 +5,12 @@ sudo apt-get dist-upgrade -y
 ##install manspider and dependecies
 sudo apt install tesseract-ocr -y
 sudo apt install antiword -y
-sudo apt install python3.10-venv
+pipx ensurepath
+sudo apt install python3.11-venv
 sudo pip install pipx
 pip install pipx
 pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
-pipx ensurepath
+
 
 ##install crackmapexec
 sudo apt-get install crackmapexec
