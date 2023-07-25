@@ -12,6 +12,7 @@ pip install pipx
 pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
 
 ##install crackmapexec
+sudo rm -f /home/kali/.cme/worksapces/default/smb.db
 git clone https://github.com/mpgn/CrackMapExec
 cd CrackMapExec
 pipx install .
