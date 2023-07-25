@@ -2,6 +2,7 @@
 sudo apt-get update -y
 sudo apt upgrade -y
 sudo apt dist-upgrade -y
+sudo apt remove crackmapexec
 
 ##install manspider and dependecies
 sudo apt install tesseract-ocr -y
