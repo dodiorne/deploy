@@ -27,7 +27,8 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 # google-chrome --no-sandbox
 sudo apt-get install golang -y
 go install github.com/sensepost/gowitness@latest
-export PATH=$PATH:~/go/bin/:/home/kali/.local/bin
+echo "export PATH=$PATH:~/go/bin/:/home/kali/.local/bin" >> ~/.zshrc
+source .zshrc
 
 ##install bloodhound.py
 git clone https://github.com/dodiorne/bloodhound.py
