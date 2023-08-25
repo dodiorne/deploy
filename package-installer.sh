@@ -68,4 +68,4 @@ sudo msfdb init
 #sudo apt install hcxdumptool -y
 
 ##remove continue line from .zshrc
-sed -i '/^bash \/home\/kali\/deploy\/package-installer.sh/d' .zshrc
+sed -i '/^bash \/home\/kali\/deploy\/package-installer.sh/d' /home/kali/.zshrc
