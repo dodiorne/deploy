@@ -3,7 +3,7 @@
 ##install manspider and dependecies
 sudo apt install tesseract-ocr -y
 sudo apt install antiword -y
-sudo apt install python3.11-venv
+sudo apt install python3.11-venv -y
 pip install pipx
 pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
 
