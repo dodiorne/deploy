@@ -8,7 +8,7 @@ sudo apt install python3.11-venv -y
 pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
 
 ##install crackmapexec
-sudo apt remove crackmapexec
+sudo apt remove crackmapexec -y
 sudo rm -f /home/kali/.cme/worksapces/default/smb.db
 git clone https://github.com/mpgn/CrackMapExec
 cd /home/kali/CrackMapExec
