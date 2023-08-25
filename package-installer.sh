@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#remove reboot file
+sudo rm /home/kali/deploy/continue.sh /etc/init.d/continue.sh
+
 ##install manspider and dependecies
 sudo apt install tesseract-ocr -y
 sudo apt install antiword -y
