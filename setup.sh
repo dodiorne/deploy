@@ -4,7 +4,7 @@
 
 if [ ! -f /home/kali/deploy/apt-updater-done.txt ]
 then
-    bash /home/kali/package-installer.sh "File does not exist in Bash"
+    bash /home/kali/deploy/package-installer.sh
 else
     bash /home/kali/deploy/apt-updater.sh
 fi
