@@ -1,3 +1,4 @@
+#!/bin/bash
 
 ##install manspider and dependecies
 sudo apt install tesseract-ocr -y
