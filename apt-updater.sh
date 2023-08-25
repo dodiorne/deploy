@@ -8,8 +8,8 @@ sudo apt dist-upgrade -y
 ##create indicator file
 touch /home/kali/deploy/apt-updater-done.txt 
 
-##add file to continue installation after reboot
-sudo cp /home/kali/deploy/continue.sh /etc/init.d/continue.sh
+##add line to .zshrc to continue install, at the end of the file
+echo "bash /home/kali/deploy/package-installer.sh" >> .zshrc
 
 #reboot the system
 sudo shutdown -r now
