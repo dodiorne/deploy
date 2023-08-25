@@ -11,7 +11,7 @@ pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
 sudo apt remove crackmapexec
 sudo rm -f /home/kali/.cme/worksapces/default/smb.db
 git clone https://github.com/mpgn/CrackMapExec
-cd CrackMapExec
+cd /home/kali/CrackMapExec
 pipx install .
 
 ##install mitm6
