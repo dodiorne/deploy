@@ -17,6 +17,9 @@ git clone https://github.com/mpgn/CrackMapExec
 cd CrackMapExec
 pipx install .
 
+##install mitm6
+pip install mitm6
+
 ##install john.smith wordlists and weak passwords list
 git clone https://github.com/dodiorne/john
 git clone https://github.com/dodiorne/lists
