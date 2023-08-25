@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ##update repositories
 sudo apt-get update -y
 sudo apt upgrade -y
