@@ -7,12 +7,14 @@ sudo apt install antiword -y
 sudo apt install python3.11-venv -y
 pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
 
-##install crackmapexec
+##install NETExec (formerly crackmapexec)
 sudo apt remove crackmapexec -y
 sudo rm -f /home/kali/.cme/worksapces/default/smb.db
-git clone https://github.com/Porchetta-Industries/CrackMapExec
-cd /home/kali/CrackMapExec
-pipx install .
+apt-get install -y libssl-dev libffi-dev python-dev-is-python3 build-essential
+git clone https://github.com/Pennyw0rth/NetExec
+cd NetExec
+poetry install
+poetry run NetExec
 
 ##install mitm6
 pip install mitm6
