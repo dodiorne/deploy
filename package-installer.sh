@@ -2,6 +2,7 @@
 
 ##install manspider and dependecies
 pip install pipx
+sudo install pipx
 sudo apt install tesseract-ocr -y
 sudo apt install antiword -y
 sudo apt install python3.11-venv -y
@@ -10,16 +11,19 @@ pipx install git+https://github.com/blacklanternsecurity/MANSPIDER
 ##install NETExec (formerly crackmapexec)
 sudo apt remove crackmapexec -y
 sudo rm -f /home/kali/.cme/worksapces/default/smb.db
-apt-get install -y libssl-dev libffi-dev python-dev-is-python3 build-essential
+sudo apt-get install -y libssl-dev libffi-dev python-dev-is-python3 build-essential
 git clone https://github.com/Pennyw0rth/NetExec
+sudo apt install python3-poetry
 cd NetExec
 poetry install
 poetry run NetExec
 
 ##install mitm6
+sudo pip install mitm6
 pip install mitm6
 
 ##install john.smith wordlists and weak passwords list
+cd ~
 git clone https://github.com/dodiorne/john
 git clone https://github.com/dodiorne/lists
 
