@@ -1,4 +1,7 @@
 #!/bin/bash
+sudo apt-get update -y
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
 
 ##install manspider and dependecies
 pip install pipx
